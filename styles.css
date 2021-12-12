@@ -1,9 +1,10 @@
 :root{
-    --color-1: #007FB0;
+    --color-1: #BE1622;
   }
   .logo{
     margin-top:10px ;
     margin-bottom: 10px;
+    text-align: center;
   }
   h1{
       color: #ffffff;
@@ -11,7 +12,7 @@
   body{
       line-height: 1.5;
       font-family: sans-serif;
-      background-color: #f2be1a;
+      background-color: #c7cbda;
   }
   *{
       box-sizing: border-box;
@@ -21,6 +22,7 @@
   
   a{
       text-decoration: none;
+      color:#007FB0;
   }
   ul{
       list-style: none;
@@ -33,7 +35,9 @@
       display: flex;
       flex-wrap: wrap;
   }
-  
+  h3{
+      text-align: center;
+  }
   
   .justify-content-between{
       justify-content: space-between;
@@ -110,7 +114,130 @@
   .nav-toggler span::after{
       top: 6px;
   }
-  @media(max-width: 991px){
+  /*iframe*/
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+   
+}
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 80%;
+    height: 80%;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+/*product anchors*/
+.product-types{
+    text-align: center;
+}
+.nav-prod-anchor{
+    padding: 10px;
+}
+/* products desktop*/
+  #products {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#ffffff ;
+    margin: 0 -4px -4px 0;
+  }
+  .product-card {
+    padding: 2%;
+    flex-grow: 1;
+    flex-basis: 20%;
+    display: table;
+    border-top:4px solid #919cad ;
+    border-right: 4px solid #919cad;
+    
+  }
+  
+  .product-image img {
+    max-width: 100%;
+    height: auto;
+  }
+  .product-info {
+    margin-top:auto ;
+  }
+
+  /* item description*/
+  .details-product{
+      margin: 10%;
+  }
+ .details-product-type{
+     text-align: center;
+ }
+ .details-title{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.details-product-image{
+    max-width: 80%;
+    height: auto;   
+}
+.details-desc-img{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #ffffff ;
+    width: auto;
+}
+.details-product-desc{
+    min-height: 10em;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 400px;
+    
+}
+.details-price-cart{
+    text-align: right;
+}
+ 
+/* cart style*/
+
+.cart-products {
+    display: flex;
+    flex-wrap: wrap;
+    background-color:#ffffff ;
+    margin: 0 -4px -4px 0;
+  }
+  .cart-desc-img{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #ffffff ;
+  }
+  .cart-title{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    color:#ffffff;
+    background-color: #34516c;
+    
+  }
+  .tradeOffer{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: #ffffff ;
+  }
+  .cart-button{
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: 100px;
+    background-color: #ffffff ;
+  }
+  @media(max-width: 1080px){
       .nav-toggler{
           display: flex;
       }
@@ -144,5 +271,54 @@
           top:0;
           transform: rotate(-45deg);
       }
+      /*item page*/
+      .details-desc-img{
+        display:block;
+    }
+    /*cart phone*/
+    .cart-products {
+        display: flex;
+        flex-wrap: wrap;
+        background-color:#ffffff ;
+        margin: 0 -4px -4px 0;
+      }
+      .cart-desc-img{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff ;
+      }
+      .cart-title{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        color:#ffffff;
+        background-color: #34516c;
+        
+      }
+      .tradeOffer{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #ffffff ;
+      }
+      .cart-button{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 100px;
+        background-color: #ffffff ;
+      }
+    
+      
+  }
+  input[type=button]{
+    background-color: #34516C;
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
   }
   
