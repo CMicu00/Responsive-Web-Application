@@ -1,5 +1,5 @@
-const data =[
-    {
+const data =[ //Big Blob of JSON cuz yeah IDK
+    {          //Didn't want to do this but here it is, it works so eh
         "id": 1,
         "type": "UCLAN Hoodie",
         "color": "Purple",
@@ -669,7 +669,7 @@ const data =[
         "color":"Navy Blue New",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (1).jpg",
+        "image": "images/items/tshirts/tshirt (1).jpg",
 
     },
     {
@@ -678,7 +678,7 @@ const data =[
         "color":"Rusty Red New",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (2).jpg",
+        "image": "images/items/tshirts/tshirt (2).jpg",
 
     },
     {
@@ -687,7 +687,7 @@ const data =[
         "color":"Burgundy",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (3).jpg",
+        "image": "images/items/tshirts/tshirt (3).jpg",
 
     },
     {
@@ -696,7 +696,7 @@ const data =[
         "color":"Pink",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (4).jpg",
+        "image": "images/items/tshirts/tshirt (4).jpg",
 
     },
     {
@@ -705,7 +705,7 @@ const data =[
         "color":"Teal",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (5).jpg",
+        "image": "images/items/tshirts/tshirt (5).jpg",
 
     },
     {
@@ -714,7 +714,7 @@ const data =[
         "color":"Black",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (6).jpg",
+        "image": "images/items/tshirts/tshirt (6).jpg",
 
     },
     {
@@ -723,7 +723,7 @@ const data =[
         "color":"Old Red",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (7).jpg",
+        "image": "images/items/tshirts/tshirt (7).jpg",
 
     },
     {
@@ -732,7 +732,7 @@ const data =[
         "color":"Grey",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (8).jpg",
+        "image": "images/items/tshirts/tshirt (8).jpg",
 
     },
     {
@@ -741,7 +741,7 @@ const data =[
         "color":"Red",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (9).jpg",
+        "image": "images/items/tshirts/tshirt (9).jpg",
 
     },
     {
@@ -750,7 +750,7 @@ const data =[
         "color":"Brown",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (10).jpg",
+        "image": "images/items/tshirts/tshirt (10).jpg",
 
     },
     {
@@ -759,7 +759,7 @@ const data =[
         "color":"Pdark Purple",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (11).jpg",
+        "image": "images/items/tshirts/tshirt (11).jpg",
 
     },
     {
@@ -768,7 +768,7 @@ const data =[
         "color":"Yellow",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (12).jpg",
+        "image": "images/items/tshirts/tshirt (12).jpg",
 
     },
     {
@@ -777,7 +777,7 @@ const data =[
         "color":"Mustard Yellow",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (13).jpg",
+        "image": "images/items/tshirts/tshirt (13).jpg",
 
     },
     {
@@ -786,7 +786,7 @@ const data =[
         "color":"Dark Grey",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (14).jpg",
+        "image": "images/items/tshirts/tshirt (14).jpg",
 
     },
     {
@@ -795,7 +795,7 @@ const data =[
         "color":"Dark Green",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (15).jpg",
+        "image": "images/items/tshirts/tshirt (15).jpg",
 
     },
     {
@@ -804,16 +804,236 @@ const data =[
         "color":"Bright Green",
         "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
         "price":"£19.99",
-        "image": "images/items/tshirts/tshirt (16).jpg",
+        "image": "images/items/tshirts/tshirt (16).jpg",
+
+    },
+    {
+        "id": 91,
+        "type":"UCLan Logo Tshirt",
+        "color":"Olive Green",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (17).jpg",
+
+    },
+    {
+        "id": 92,
+        "type":"UCLan Logo Tshirt",
+        "color":"Dark Grey",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (18).jpg",
+
+    },
+    {
+        "id": 93,
+        "type":"UCLan Logo Tshirt",
+        "color":"Orange",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (19).jpg",
+
+    },
+    {
+        "id": 94,
+        "type":"UCLan Logo Tshirt",
+        "color":"Purple",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (20).jpg",
+
+    },
+    {
+        "id": 95,
+        "type":"UCLan Logo Tshirt",
+        "color":"Slate Blue",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (21).jpg",
+
+    },
+    {
+        "id": 96,
+        "type":"UCLan Logo Tshirt",
+        "color":"Bright Pink",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (22).jpg",
+
+    },
+    {
+        "id": 97,
+        "type":"UCLan Logo Tshirt",
+        "color":"Brightly Green",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (23).jpg",
+
+    },
+    {
+        "id": 98,
+        "type":"UCLan Logo Tshirt",
+        "color":"Lime Green",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (24).jpg",
+
+    },
+    {
+        "id": 99,
+        "type":"UCLan Logo Tshirt",
+        "color":"Ocean Blue",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (25).jpg",
+
+    },
+    {
+        "id": 100,
+        "type":"UCLan Logo Tshirt",
+        "color":"Dark Red",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (26).jpg",
+
+    },
+    {
+        "id": 101,
+        "type":"UCLan Logo Tshirt",
+        "color":"Another Green",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (27).jpg",
+
+    },
+    {
+        "id": 102,
+        "type":"UCLan Logo Tshirt",
+        "color":"Slate Grey",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (28).jpg",
+
+    },
+    {
+        "id": 103,
+        "type":"UCLan Logo Tshirt",
+        "color":"Bright Orange",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (29).jpg",
+
+    },
+    {
+        "id": 104,
+        "type":"UCLan Logo Tshirt",
+        "color":"Another Purple",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (30).jpg",
+
+    },
+    {
+        "id": 105,
+        "type":"UCLan Logo Tshirt",
+        "color":"Real Red",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (31).jpg",
+
+    },
+    {
+        "id": 106,
+        "type":"UCLan Logo Tshirt",
+        "color":"Brilliant Blue",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (32).jpg",
+
+    },
+    {
+        "id": 107,
+        "type":"UCLan Logo Tshirt",
+        "color":"Creame",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (33).jpg",
+
+    },
+    {
+        "id": 108,
+        "type":"UCLan Logo Tshirt",
+        "color":"Teal Blue",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (34).jpg",
+
+    },
+    {
+        "id": 109,
+        "type":"UCLan Logo Tshirt",
+        "color":"White",
+        "details":"cotton authentic character and practicality are combined in this summery t-shirt for students that goes with everything to create casual looks. Perfect for those summer days",
+        "price":"£19.99",
+        "image": "images/items/tshirts/tshirt (35).jpg",
 
     },
     
 ]
+//populate cart
+function populateCart(){
+    cart = JSON.parse(localStorage.getItem("cart") || "[]");
+     console.log(cart.length)
+     cartLen = cart.length
+     for(let i=0;i<cartLen;i++){
+      var product =cart[i]
+        document.getElementById("cart").innerHTML +=`
+        <div class="cart-product">
+            <div class="cart-title">
+                <h2 class = "cart-product-type">${product.type}</h2>
+                <h2 class = "cart-product-color">${product.color}</h2> 
+            </div>
+            <div class="cart-desc-img">
+                <img src="${product.image}" class ="details-product-image">
+            </div>
+            <div class="cart-button">
+                <h2 class="cart-product-price">${product.price}</h2> 
+                <input type="button" onclick="removeFromCart(`+i+`)" class="rmFromCartBtn" value="Remove from Cart">
+            </div>   
+        </div>
+        `
+      }
+}
+
+//populate item page
+function populateItem(){
+    const product =JSON.parse(sessionStorage.selected)
+        var prodID = product.id
+        document.getElementById("product").innerHTML =`
+        <div class="details-product">
+            <div class="details-title">
+                <h2 class = "details-product-type">${product.type}</h2>
+                <h2 class = "details-product-color">${product.color}</h2> 
+            </div>
+            <div class="details-desc-img">
+                <img src="${product.image}" class ="details-product-image">
+                <p class"details-product-desc">${product.details}</p>
+            </div>
+            <div class="details-price-cart">
+                <h2 class="details-product-price">${product.price}</h2>
+                <input type="button" onclick="addToCart(${product.id})" class="addToCartBtn" value="ADD TO CART"></input>        
+            </div>
+            </div>
+        `
+
+}
+
+//populate products page
 function populateItems(){
     document.getElementById("products").innerHTML = `
     ${data.map(function(product){
         return `
-        <div class="product-card">
+        <div class="product-card" id="${product.id}">
             <div class="image-box">
                 <img class="product-image" src="${product.image}"  width="200" alt="product-image">
             </div>
@@ -828,7 +1048,7 @@ function populateItems(){
                     ${product.price}
                 </h5>
                 <input type="button" onclick="viewDetails(${product.id})" value="Details"></input>
-                <input type="button" onclick="addToCart(${product.id})" value="ADD TO CART"></input>
+                <input type="button" onclick="addToCart(${product.id})" class="addToCartBtn" value="ADD TO CART"></input>
             </div>
         </div>
     `
@@ -841,9 +1061,26 @@ function viewDetails(index){
     window.location.href = "item.html"
   }
 
-function addToCart(index){
-    var storedCart = localStorage.getItem('cart')
-    storedCart = storedCart ? storedCart.split(',') : []
-    storedCart.push(JSON.stringify(data[index-1]))
-    localStorage.setItem('cart',storedCart.toString())
+
+// cart part
+//data to local storage
+let cart = []
+function addToCart(index){ //add items to cart
+    var storedCart
+    if(localStorage.cart){
+        storedCart = JSON.parse(localStorage.cart)
+    }else{
+        storedCart = new Array ()
+
+    }
+    storedCart.push(data[index])
+    localStorage.cart =JSON.stringify(storedCart)
+
+}
+//remove item from cart
+function removeFromCart(index){
+    console.log(index)
+    cart.splice(index, 1)
+    localStorage.setItem('cart', JSON.stringify(cart))
+    location.reload();
 }
