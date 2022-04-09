@@ -1,3 +1,12 @@
+<?php 
+session_start();
+
+	include("connection.php");
+	include("functions.php");
+
+	$user_data = check_login($con);
+   
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -10,7 +19,7 @@
 <body >
 
 
- <header class="header">
+<header class="header" >
     <div class="container">
         <div class="row align-items-center justify-content-between">
         <div class="logo"> <h1>UCLAN Drip Shop</h1></div>
@@ -20,9 +29,18 @@
            </label>
            <nav class="nav">
               <ul>
-                 <li><a href="index.html">Home</a></li>
-                 <li><a href="products.html">Products</a></li>
-                 <li><a href="cart.html">Cart</a></li>
+                 <li><a href="index.php">Home</a></li>
+                 <li><a href="products.php">Products</a></li>
+                 <li><a href="cart.php">Cart</a></li>
+                 <?php 
+                     if(isset($_SESSION['user_id'])){
+                        echo '<li><a href="logout.php">Logout</a></li>';
+                     }else{
+                        echo '<li><a href="login.php">Login</a></li>';
+                     }
+                 ?>
+                 
+                 <li><a href="signup.php">Sign Up</a></li>
               </ul>
            </nav>
         </div>

@@ -1058,7 +1058,7 @@ function populateItems(){
 }
 function viewDetails(index){
     sessionStorage.selected = JSON.stringify(data[index-1])
-    window.location.href = "item.html"
+    window.location.href = "item.php"
   }
 
 

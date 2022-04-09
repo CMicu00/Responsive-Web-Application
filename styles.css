@@ -1,6 +1,58 @@
 :root{
     --color-1: #BE1622;
   }
+  .centerForm{
+    vertical-align: top;
+    text-align: center;
+  }
+  .registerForm {
+    background: white;
+    border: 0 none;
+    border-radius: 3px;
+    box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.4);
+    padding: 20px 30px;
+    box-sizing: border-box;
+    width: 80%;
+    margin: 0 10%;
+    text-align:center;
+    
+    /*stacking fieldsets above each other*/
+    position: relative;
+  }
+  .submitBtn{
+    width: 100px;
+    background: #34516C;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 1px;
+    cursor: pointer;
+    padding: 10px 5px;
+    margin: 10px 5px;
+  }
+  .inputField{
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #2C3E50;
+    font-size: 13px;
+  }
+  .offer-box{
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+    vertical-align: top;
+  }
+  .offer-container{
+      text-align: center;
+      
+  }
+
   .logo{
     margin-top:10px ;
     margin-bottom: 10px;
@@ -116,7 +168,7 @@
   }
   /*iframe*/
 
-.iframe-container {
+  .iframe-container {
     position: relative;
     overflow: hidden;
     width: 100%;
